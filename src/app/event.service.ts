@@ -99,7 +99,7 @@ const EVENTS = [
     date: '4/15/2037',
     time: '9:00 am',
     price: 950.00,
-    imageUrl: '/app/assets/images/ng-nl.png',
+    imageUrl: '/app/assets/images/ng-nl.jpeg',
     location: {
       address: 'The NG-NL Convention Center & Scuba Shop',
       city: 'Amsterdam',
@@ -159,7 +159,7 @@ const EVENTS = [
     date: '5/4/2037',
     time: '9:00 am',
     price: 759.00,
-    imageUrl: '/app/assets/images/ng-conf.png',
+    imageUrl: '/app/assets/images/images.png',
     location: {
       address: 'The Palatial America Hotel',
       city: 'Salt Lake City',
@@ -241,7 +241,7 @@ const EVENTS = [
     date: '6/10/2037',
     time: '8:00 am',
     price: 800.00,
-    imageUrl: '/app/assets/images/basic-shield.png',
+    imageUrl: '/app/assets/images/index.jpeg',
     location: {
       address: 'The UN Angular Center',
       city: 'New York',
@@ -290,7 +290,7 @@ const EVENTS = [
     date: '2/10/2037',
     time: '9:00 am',
     price: 400.00,
-    imageUrl: '/app/assets/images/ng-vegas.png',
+    imageUrl: '/app/assets/images/ng-vegas.jpeg',
     location: {
       address: 'The Excalibur',
       city: 'Las Vegas',
