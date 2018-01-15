@@ -1,3 +1,4 @@
+import { AuthService } from './components/profile/login/auth.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { appRoutes } from './routes';
@@ -29,7 +30,7 @@ import { CanDeactivateGuard } from './can-deactivate.guard';
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [EventService, CanDeactivateGuard],
+  providers: [EventService, CanDeactivateGuard, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
