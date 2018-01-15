@@ -9,6 +9,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { EventService } from './event.service';
 import { EventDetailComponent } from './components/event-detail/event-detail.component';
 import { RouterModule } from '@angular/router';
+import { CreateEventComponent } from './components/create-event/create-event.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { CanDeactivateGuard } from './can-deactivate.guard';
+
 
 
 @NgModule({
@@ -17,13 +21,15 @@ import { RouterModule } from '@angular/router';
     EventThumbnailComponent,
     EventsListComponent,
     NavbarComponent,
-    EventDetailComponent
+    EventDetailComponent,
+    CreateEventComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [EventService],
+  providers: [EventService, CanDeactivateGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
