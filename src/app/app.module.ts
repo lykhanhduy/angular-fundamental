@@ -15,6 +15,7 @@ import { CreateEventComponent } from './components/create-event/create-event.com
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { CanDeactivateGuard } from './can-deactivate.guard';
 import { CreateSessionComponent } from './components/create-session/create-session.component';
+import { ListSessionsComponent } from './components/list-sessions/list-sessions.component';
 
 
 
@@ -28,6 +29,7 @@ import { CreateSessionComponent } from './components/create-session/create-sessi
     CreateEventComponent,
     PageNotFoundComponent,
     CreateSessionComponent,
+    ListSessionsComponent,
   ],
   imports: [
     BrowserModule,
