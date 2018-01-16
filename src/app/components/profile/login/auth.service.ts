@@ -9,14 +9,14 @@ export class AuthService {
       userName: 'lykhanhduy2008@gmail.com',
       firstName: 'Solitary',
       lastName: 'Wolve',
-      password: 'LKD!@(1996)'
+      password: '1'
     },
     {
       id: 2,
       userName: 'lykhanhduy2206@gmail.com',
       firstName: 'Geum',
       lastName: 'Bi',
-      password: 'LKD!@(1996)'
+      password: '1'
     }
   ];
 
@@ -33,4 +33,9 @@ export class AuthService {
   isAuthenticated() {
     return !!this.currentUser;
   }
+  updateCurrentUser(firstName: string, lastName: string) {
+    this.currentUser.firstName = firstName;
+    this.currentUser.lastName = lastName;
+  }
+
 }
