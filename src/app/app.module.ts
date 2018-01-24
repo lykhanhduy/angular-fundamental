@@ -16,6 +16,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { CanDeactivateGuard } from './can-deactivate.guard';
 import { CreateSessionComponent } from './components/create-session/create-session.component';
 import { ListSessionsComponent } from './components/list-sessions/list-sessions.component';
+import { CollapsibleWellComponent } from './components/common/collapsible-well/collapsible-well.component';
 
 
 
@@ -30,6 +31,7 @@ import { ListSessionsComponent } from './components/list-sessions/list-sessions.
     PageNotFoundComponent,
     CreateSessionComponent,
     ListSessionsComponent,
+    CollapsibleWellComponent,
   ],
   imports: [
     BrowserModule,
