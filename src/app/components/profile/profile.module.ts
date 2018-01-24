@@ -7,6 +7,7 @@ import { ProfileComponent } from './profile.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+
 @NgModule({
     imports: [
         CommonModule,
@@ -15,7 +16,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
         RouterModule.forChild(ProfileRoutes)
     ],
     declarations: [
-        ProfileComponent, LoginComponent
+        ProfileComponent, LoginComponent,
     ],
     providers: [
 

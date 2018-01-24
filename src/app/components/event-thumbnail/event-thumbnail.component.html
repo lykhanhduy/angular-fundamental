@@ -1,7 +1,7 @@
 
   <div class="well hoverwell thumbnail">
     <a routerLink="/event/{{event.id}}"><h2>{{event?.name}}</h2></a>
-    <div>Date: {{event?.data}}</div>
+    <div>Date: {{event?.date}}</div>
     <div>Time: {{event?.time}}</div>
     <div>Price: $ {{event?.price}}</div>
     <div *ngIf="event?.location">
