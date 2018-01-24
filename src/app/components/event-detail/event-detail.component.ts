@@ -10,6 +10,8 @@ import { ActivatedRoute } from '@angular/router';
 export class EventDetailComponent implements OnInit {
   event: any;
   addMode = false;
+  filterBy = 'all';
+  sortBy = 'name';
   constructor(private eventService: EventService, private route: ActivatedRoute) { }
 
   ngOnInit() {
