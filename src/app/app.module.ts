@@ -20,6 +20,7 @@ import { CollapsibleWellComponent } from './components/common/collapsible-well/c
 import { DurationPipe } from './duration.pipe';
 import { UpvoteComponent } from './components/list-sessions/upvote/upvote.component';
 import { VoterService } from './components/list-sessions/voter.service';
+import { LocationValidatorDirective } from './components/common/location-validator.directive';
 
 
 
@@ -37,6 +38,7 @@ import { VoterService } from './components/list-sessions/voter.service';
     CollapsibleWellComponent,
     DurationPipe,
     UpvoteComponent,
+    LocationValidatorDirective,
   ],
   imports: [
     BrowserModule,
