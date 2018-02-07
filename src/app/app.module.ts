@@ -18,6 +18,8 @@ import { CreateSessionComponent } from './components/create-session/create-sessi
 import { ListSessionsComponent } from './components/list-sessions/list-sessions.component';
 import { CollapsibleWellComponent } from './components/common/collapsible-well/collapsible-well.component';
 import { DurationPipe } from './duration.pipe';
+import { UpvoteComponent } from './components/list-sessions/upvote/upvote.component';
+import { VoterService } from './components/list-sessions/voter.service';
 
 
 
@@ -34,6 +36,7 @@ import { DurationPipe } from './duration.pipe';
     ListSessionsComponent,
     CollapsibleWellComponent,
     DurationPipe,
+    UpvoteComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +44,7 @@ import { DurationPipe } from './duration.pipe';
     ReactiveFormsModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [EventService, CanDeactivateGuard, AuthService],
+  providers: [EventService, CanDeactivateGuard, AuthService, VoterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
